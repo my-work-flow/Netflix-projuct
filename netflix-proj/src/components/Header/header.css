@@ -1,0 +1,48 @@
+.header-outer-container{
+    /* background-color: #dc1111; */
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    background-color: transparent;
+    height: 10vh;
+    color: white;
+    transition:all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    
+}
+
+.header-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left ul  {
+/* width: 100%; */
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+
+}
+.header-left ul li  {
+padding: 0 6px;
+}
+
+
+.headerRight ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+   justify-content: space-between;
+
+}
+
+.headerRight ul li{
+    padding: 0 6px;
+
+}
